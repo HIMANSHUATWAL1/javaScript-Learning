@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chai or Code |DOM</title>
+</head>
+<body style="background-color: #212121; color:aliceblue">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    /*
+    function addLang(langName){
+       const li= document.createElement("li");
+       li.innerHTML=`${langName}`   // here tree travarsal is initiated 
+       document.querySelector(".language").appendChild(li)
+
+    }
+    addLang("java")
+    addLang("python")
+    */
+    function addOptiLang(langName){
+        const li= document.createElement("li");
+       const addText= document.createTextNode(langName)
+        li.appendChild(addText)  // this is optimize way than innerHTML.
+        document.querySelector(".language").appendChild(li)
+
+    }
+    addOptiLang("goLang")
+    addOptiLang("java")
+
+//<------------- Edit Values--------------->
+const secondLang=document.querySelector("li:nth-child(2)");
+console.log(secondLang)
+//secondLang=innerHtml="mojo"
+const newLi=document.createElement("li")
+newLi.textContent="mojo";
+secondLang.replaceWith(newLi)  // replace values.
+
+
+//<-------------------edit (second Method)----------->
+const firstLang=document.querySelector("li:nth-child(1)");
+firstLang.outerHTML="<li>TypeScript</li>"
+
+//<-------------------- Remove--------------------->
+ const lastLang=document.querySelector("li:last-child");
+ lastLang.remove()
+</script>
+</html>
