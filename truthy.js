@@ -1,3 +1,17 @@
+"use strict"; // treat all js code as newer version
+// alert(3+3)  // we are using nodejs not browser
+/*
+//number => 2 to power 53
+//bigint
+//string
+//boolean
+//null=>standalone value  (type of null is object)
+//undefined=>value is not assigned (type of undefined is undefined)
+//symbol =>unique
+// object
+*/
+ 
+
 const userEmail="hem@gmail.com" // here we assume value is true
 /*
 if(userEmail){
