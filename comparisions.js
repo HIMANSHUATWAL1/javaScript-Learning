@@ -2,7 +2,8 @@
 //console.log(2<=4)
 //console.log(2!=1)
 
-//console.log("2">1)
+//console.log("2">1)   //true
+// please compare same data types for desired output.
 
 
 /*
@@ -29,4 +30,4 @@ console.log(undefined<0)//false
 // (===) (strictly value check with datatype)
 
 console.log("2"===2)
-
+ 
