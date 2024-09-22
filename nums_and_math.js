@@ -4,7 +4,7 @@ const score=233
 //console.log(typeof score)
 
 const balance=new Number(100.899)
-//console.log(balance)
+//console.log(balance.toString())
 //
 //console.log( balance.toFixed(2))// important property 
 
@@ -12,7 +12,7 @@ const balance=new Number(100.899)
 
 const otherNum=123.8966
 
-//console.log(otherNum.toPrecision(4))// important property
+//console.log(otherNum.toPrecision(4))// important property  // returns a string
 //
 //
 //const hundreds=10000000
@@ -41,7 +41,7 @@ const otherNum=123.8966
 
 
 //console.log(Math.random())  // randomly guesses value from 0 to 1
-//console.log((Math.random()*10)+1) 
+//console.log((Math.random()*10)+1)   // for avoiding 0 at first we add 1 
 //console.log(Math.floor(Math.random()*10)+1) 
 
 
