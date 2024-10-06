@@ -7,7 +7,7 @@ there are two type of datatype--->
 
 (String,Number,Boolean,null,BigInt,undefined,symbol )
 
-2.non-primitive(referenc-type)  // directly allocated the reference of these datatypt in memory 
+2.non-primitive(reference-type)  // directly allocated the reference of these datatypt in memory 
 
 (Arrays,Objects,Functions)
 
