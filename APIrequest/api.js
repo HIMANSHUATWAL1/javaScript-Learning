@@ -2,7 +2,7 @@
 // random.api ,github/users/name of account.
 
 
-// AJAX request (XML)-async jkavascript XML request
+// AJAX request (XML)-async javascript XML request
 
 //1. object creation --->
 const data="https://api.github.com/users/himanshuAtwal1"
