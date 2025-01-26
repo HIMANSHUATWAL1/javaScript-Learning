@@ -1,5 +1,5 @@
 // for formatting API we use json formatter.
-// random.api ,github/users/nan=me of account.
+// random.api ,github/users/name of account.
 
 
 // AJAX request (XML)-async jkavascript XML request
