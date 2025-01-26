@@ -38,7 +38,7 @@ if(true){
 
 //Nested scope------>
 
-// In a nested function child function can access the all variable of parent function called a closer
+// In a nested function child function can access the all variable of parent function called a clouser
 
 
 function one(){
